@@ -1,5 +1,5 @@
 package ageofobjetos3
 
 class Misil extends Atacante {
-  val potencialOfensivo = 1000
+  protected val potencialOfensivoBase = 1000
 }

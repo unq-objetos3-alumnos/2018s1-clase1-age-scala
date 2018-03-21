@@ -9,5 +9,5 @@ class Espadachin(
   unaEnergia:           Int    = 100)
   extends Guerrero(unPotencialOfensivo, unPotencialDefensivo, unaEnergia) {
 
-  override def potencialOfensivo = unPotencialOfensivo + espada.potencialOfensivo 
+  override def potencialOfensivoBase = unPotencialOfensivo + espada.potencialOfensivo 
 }
